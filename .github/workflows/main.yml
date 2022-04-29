@@ -1,7 +1,7 @@
 name: learn-github-actions
 on: [push]
 jobs:
-  check-Python-version and run script:
+  check Python version and run script:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
