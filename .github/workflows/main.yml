@@ -9,4 +9,7 @@ jobs:
         with:
           python-version: '3.8'
       - run: python --version
-      - run: python my_script.py
+      - name: Run python script
+      - run: |
+        cd Demo
+        python my_script.py
