@@ -1,5 +1,19 @@
 name: learn-github-actions
-on: [push]
+
+on: 
+  push:
+    branches:
+        - master
+  #       - 'main/**'
+  #   paths:
+  #     - '**.txt'
+  # pull_request:
+  #   branches:    
+  #     - 'main/**'
+
+env:
+  SCRIPT_NAME: my_script.py
+
 jobs:
   check-Python-version-and-run-script:
     runs-on: ubuntu-latest
@@ -8,9 +22,11 @@ jobs:
       - uses: actions/setup-python@v3
         with:
           python-version: '3.8'
+
       - name: print Python version 
         run: python --version
+
       - name: Run python script
         run: |
           cd Demo
-          python my_script.py
+          python $SCRIPT_NAME
