@@ -5,6 +5,7 @@ on:
     branches:
         - main
         - new_devops_branch
+        
     #     - 'main/**'   //doubt
   #   # paths:
   #   #   - '**.txt'
