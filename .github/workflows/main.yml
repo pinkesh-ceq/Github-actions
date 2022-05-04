@@ -13,7 +13,7 @@ on:
   #     - 'main/**'
 
   schedule:
-      - cron: '19 17 * * '
+      - cron: '20 17 * * *'
 
 env:
   SCRIPT_NAME: my_script.py
