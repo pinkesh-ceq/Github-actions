@@ -9,8 +9,8 @@ on:
       - '**.txt'
   pull_request:
     branches:   
-      - main 
-      # - 'main/**'
+      - new_devops_branch
+      - 'main/**'
 
 env:
   SCRIPT_NAME: my_script.py
