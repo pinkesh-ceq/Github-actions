@@ -40,9 +40,9 @@ jobs:
 
 # name: learn-cron-actions
 
-on:
-  schedule:
-    - cron: '36 5,17 * * '
+# on:
+#   schedule:
+#     - cron: '36 5,17 * * '
 
 # jobs:
 #   test_schedule:
