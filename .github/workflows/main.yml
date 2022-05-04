@@ -3,8 +3,8 @@ name: learn-github-actions
 on: 
   push:
     branches:
-        - main
-  #       - 'main/**'
+        # - main
+        - 'main/**'
   #   paths:
   #     - '**.txt'
   # pull_request:
