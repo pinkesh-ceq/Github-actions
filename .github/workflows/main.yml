@@ -7,9 +7,10 @@ on:
     #     - 'main/**'
     paths:
       - '**.txt'
-  # pull_request:
-  #   branches:    
-  #     - 'main/**'
+  pull_request:
+    branches:   
+      - main 
+      # - 'main/**'
 
 env:
   SCRIPT_NAME: my_script.py
