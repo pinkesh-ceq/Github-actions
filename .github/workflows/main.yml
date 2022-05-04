@@ -1,10 +1,11 @@
 name: learn-github-actions
 
 on: 
-  # push:
-  #   # branches:
-  #   #     - main
-  #   #     - 'main/**'   //doubt
+  push:
+    branches:
+        - main
+        - new_devops_branch
+    #     - 'main/**'   //doubt
   #   # paths:
   #   #   - '**.txt'
   # pull_request:
