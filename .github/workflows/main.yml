@@ -1,10 +1,10 @@
 name: learn-github-actions
 
 on: 
-  push:
-    branches:
-        - main
-        - new_devops_branch
+  # push:
+  #   branches:
+  #       - main
+  #       - new_devops_branch
     #     - 'main/**'   //doubt
   #   # paths:
   #   #   - '**.txt'
@@ -13,8 +13,8 @@ on:
   #     - new_devops_branch
   #     - 'main/**'
 
-  # schedule:
-  #     - cron: '20 17 * * *'
+  schedule:
+      - cron: '36 5,17 * * '
 
 env:
   SCRIPT_NAME: my_script.py
@@ -40,9 +40,9 @@ jobs:
 
 # name: learn-cron-actions
 
-# on:
-#   schedule:
-#     - cron: '17 20 * * '
+on:
+  schedule:
+    - cron: '36 5,17 * * '
 
 # jobs:
 #   test_schedule:
