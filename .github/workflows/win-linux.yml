@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: check linux and win commands
 
 # Controls when the workflow will run
 on:
@@ -22,8 +22,10 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a window script
-        run: md demo3 && dir
+        shell: pwsh
+        run: ipconfig
 
       # Runs a set of commands using the runners shell
       - name: Run a linux script
-        run: mkdir demo2 && ls
+        shell: pwsh
+        run: ifconfig
