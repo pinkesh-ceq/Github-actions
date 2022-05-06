@@ -14,8 +14,8 @@ on:
   #     - new_devops_branch
   #     - 'main/**'
 
-  schedule:
-      - cron: "*/1 * * * *"
+#   schedule:
+#       - cron: "*/1 * * * *"
 
 env:
   SCRIPT_NAME: my_script.py
