@@ -22,7 +22,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a window script
-        run: md demo && echo dir /s
+        run: md demo3 && echo dir /s
 
       # Runs a set of commands using the runners shell
       - name: Run a linux script
