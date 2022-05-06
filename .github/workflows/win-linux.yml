@@ -22,10 +22,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a window script
-        run: md demo3 && echo dir /s
+        run: md demo3 && dir /s
 
       # Runs a set of commands using the runners shell
       - name: Run a linux script
-        run: |
-          mkdir demo2,
-          echo ls.
+        run: mkdir demo2 && ls
