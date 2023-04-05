@@ -1,4 +1,4 @@
-name: learn-github-actions
+name: cron-job-demo
 
 on: 
   # push:
