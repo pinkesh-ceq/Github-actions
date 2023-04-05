@@ -5,10 +5,9 @@ on:
   #   branches:
   #       - main
   #       - new_devops_branch
-  workflow_dispatch:
-        
+
   schedule:
-      - cron: "*/1 * * * *"
+    - cron: "*/1 * * * *"
 
 jobs:
   # This workflow contains a single job called "build"
